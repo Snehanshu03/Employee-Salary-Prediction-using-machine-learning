@@ -63,7 +63,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-The app will open in your browser at `[https://employee-salary-prediction-an2dips4mkcduykwk37pne.streamlit.app/](https://employee-salary-prediction-using-machine-learning-usdvhiqebant.streamlit.app/)`.
+The app will open in your browser at `https://employee-salary-prediction-using-machine-learning-usdvhiqebant.streamlit.app/`.
 
 ---
 
@@ -99,6 +99,7 @@ For tree-based models, feature importances are displayed in a bar chart, availab
 ![alt text](/images/Feature%20Importance.png)
 
 ---
+
 
 
 
