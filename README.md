@@ -1,8 +1,12 @@
-# 💼 Employee Salary Predictor App
+# Employee Salary Prediction using machine learning
 
 A user-friendly **Streamlit web application** that predicts employee salaries based on demographic and professional attributes using a **pre-trained machine learning model**.
 
-🎯 Predict salary by entering:
+##Problem Statement
+
+Accurate prediction of employee salaries is a critical challenge faced by organizations and HR departments worldwide. Traditional compensation methods often rely on broad industry benchmarks or subjective judgment, which may overlook the complex interplay of demographic and professional factors.
+
+Predict salary by entering:
 - Age
 - Gender
 - Education Level
@@ -11,7 +15,7 @@ A user-friendly **Streamlit web application** that predicts employee salaries ba
 
 ---
 
-## 🚀 Demo
+##  Demo
 
 ![App Preview]<img width="1915" height="1028" alt="sample-ui" src="https://github.com/user-attachments/assets/62d1396f-c51e-4ce9-b506-a9ec68404a85" />
   
@@ -21,7 +25,7 @@ A user-friendly **Streamlit web application** that predicts employee salaries ba
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project uses machine learning models such as **Random Forest Regressor** and **XGBoost** to train on employee salary data. Model training is handled by `Model training.py` to select and save the best performer.
 
@@ -36,7 +40,7 @@ The web app (`app.py`) lets users:
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the Repository
 
@@ -63,11 +67,11 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-The app will open in your browser at `https://employee-salary-prediction-an2dips4mkcduykwk37pne.streamlit.app/`.
+The app will open in your browser at `https://employee-salary-prediction-using-machine-learning-usdvhiqebant.streamlit.app/`.
 
 ---
 
-## 🧪 Model Information
+##  Model Information
 
 - **RandomForestRegressor** (best model, by default)
 - Trained/tested using `train_test_split`
@@ -80,7 +84,7 @@ The app will open in your browser at `https://employee-salary-prediction-an2dips
 
 ---
 
-## ✅ Sample Prediction Features
+##  Sample Prediction Features
 
 | Feature               | Type         | Example            |
 |-----------------------|--------------|--------------------|
@@ -92,12 +96,13 @@ The app will open in your browser at `https://employee-salary-prediction-an2dips
 
 ---
 
-## 📷 Feature Importance
+##  Feature Importance
 
 For tree-based models, feature importances are displayed in a bar chart, available in the UI for Random Forest and XGBoost options.
 
 ![alt text](/images/Feature%20Importance.png)
 
 ---
+
 
 
