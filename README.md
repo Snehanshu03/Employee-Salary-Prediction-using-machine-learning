@@ -7,31 +7,20 @@ Problem Statement
 Accurate prediction of employee salaries is a critical challenge faced by organizations and HR departments worldwide. Traditional compensation methods often rely on broad industry benchmarks or subjective judgment, which may overlook the complex interplay of demographic and professional factors.
 
 This project addresses these limitations by leveraging machine learning to build a predictive system that accounts for key attributes such as:
-
-Age
-
-Gender
-
-Education Level
-
-Job Title
-
-Years of Experience
+-Age
+-Gender
+-Education Level
+-Job Title
+-Years of Experience
 
 By introducing data-driven objectivity, the system aims to:
 
-Provide unbiased, fact-based salary predictions
+-Provide unbiased, fact-based salary predictions
 
-Minimize reliance on manual assumptions and stereotypes
+-Minimize reliance on manual assumptions and stereotypes
 
-Streamline compensation planning, helping businesses make fair decisions and professionals understand their market value
+-Streamline compensation planning, helping businesses make fair decisions and professionals understand their market value
 
- Predict salary by entering:
-- Age
-- Gender
-- Education Level
-- Job Title
-- Years of Experience
 
 ---
 
@@ -123,6 +112,7 @@ For tree-based models, feature importances are displayed in a bar chart, availab
 ![alt text](/images/Feature%20Importance.png)
 
 ---
+
 
 
 
